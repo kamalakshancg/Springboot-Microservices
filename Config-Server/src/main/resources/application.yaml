@@ -1,0 +1,12 @@
+server:
+  port: 9005
+
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kamalakshancg/Config-Server/tree/main
+          clone-on-start: true
