@@ -42,6 +42,12 @@ public class DepartmentController {
 	
 	
 	
+	@GetMapping("/check")
+	public String checking() {
+		return "running";
+	}
+	
+	
 	
 
 }
